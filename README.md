@@ -1,73 +1,220 @@
-# React + TypeScript + Vite
+# 🦆 Ducks Code LTDA.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Soluções digitais modernas que transformam ideias em resultados.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🇧🇷 Versão em Português
 
-## React Compiler
+### 🚀 Sobre o Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este repositório contém a **landing page oficial da Ducks Code**, desenvolvida para apresentar a empresa, seus serviços e facilitar o contato com clientes.
 
-## Expanding the ESLint configuration
+A aplicação foi construída com foco em:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* Performance ⚡
+* Design moderno 🎨
+* Responsividade 📱
+* Conversão de leads 📈
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 🛠️ Tecnologias Utilizadas
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* HTML5
+* CSS3
+* JavaScript
+* React
+* Tailwind CSS
+
+---
+
+### 📁 Estrutura do Projeto
+
+```bash
+/src
+  /components
+    Header.jsx
+    Hero.jsx
+    Sobre.jsx
+    Servicos.jsx
+    Contato.jsx
+    Footer.jsx
+  App.jsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 💻 Como Executar o Projeto
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+#### Pré-requisitos
+
+* Node.js instalado
+
+#### Instalação
+
+```bash
+npm install
 ```
+
+#### Execução
+
+```bash
+npm run dev
+```
+
+Acesse em:
+
+```
+http://localhost:5173
+```
+
+---
+
+### 🌐 Deploy
+
+O projeto pode ser publicado facilmente em:
+
+* Vercel
+* Netlify
+
+---
+
+### 🎯 Funcionalidades
+
+* Layout responsivo e moderno
+* Seções institucionais (Sobre, Serviços, Contato)
+* Formulário de contato
+* Navegação suave
+* Estrutura escalável
+
+---
+
+### 📈 Melhorias Futuras
+
+* Integração com API de e-mail
+* Animações avançadas
+* SEO otimizado
+* Integração com WhatsApp
+* Dashboard administrativo
+
+---
+
+### 📄 Licença
+
+Este projeto é proprietário da **Ducks Code**.
+Uso não autorizado é proibido.
+
+---
+
+## 🇺🇸 English Version
+
+### 🚀 About the Project
+
+This repository contains the **official Ducks Code landing page**, designed to showcase the company, its services, and facilitate client contact.
+
+The application focuses on:
+
+* Performance ⚡
+* Modern design 🎨
+* Responsiveness 📱
+* Lead conversion 📈
+
+---
+
+### 🛠️ Tech Stack
+
+* HTML5
+* CSS3
+* JavaScript
+* React
+* Tailwind CSS
+
+---
+
+### 📁 Project Structure
+
+```bash
+/src
+  /components
+    Header.jsx
+    Hero.jsx
+    Sobre.jsx
+    Servicos.jsx
+    Contato.jsx
+    Footer.jsx
+  App.jsx
+```
+
+---
+
+### 💻 Running the Project
+
+#### Prerequisites
+
+* Node.js installed
+
+#### Installation
+
+```bash
+npm install
+```
+
+#### Run
+
+```bash
+npm run dev
+```
+
+Open in your browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+### 🌐 Deployment
+
+You can deploy this project using:
+
+* Vercel
+* Netlify
+
+---
+
+### 🎯 Features
+
+* Modern and responsive layout
+* Institutional sections (About, Services, Contact)
+* Contact form
+* Smooth navigation
+* Scalable structure
+
+---
+
+### 📈 Future Improvements
+
+* Email API integration
+* Advanced animations
+* SEO optimization
+* WhatsApp integration
+* Admin dashboard
+
+---
+
+### 📄 License
+
+This project is proprietary to **Ducks Code**.
+Unauthorized use is strictly prohibited.
+
+---
+
+## 🤝 Contact
+
+📧 [contato@duckscode.com](mailto:contato@duckscode.com)
+📱 +55 (83) 99999-9999
+
+---
+
+💡 Built with passion by **Ducks Code**
